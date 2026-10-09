@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jenci Collections | Ponmanai</title>
+<meta name="description" content="Discover heritage jewellery and traditional-to-modern women's fashion at Jenci Collections, Ponmanai.">
+<style>
+:root{--wine:#4b1727;--gold:#b28a4a;--cream:#fbf6ed;--ink:#211a17;--green:#12352e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+a{color:inherit;text-decoration:none}.topbar{background:#efe6d8;padding:9px 5%;font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+header{display:flex;align-items:center;justify-content:space-between;padding:18px 5%;gap:20px;border-bottom:1px solid #e6d9c8;background:#fffaf2;position:sticky;top:0;z-index:5}
+.brand{font-family:Georgia,serif;font-size:32px;color:var(--wine);white-space:nowrap}.brand small{display:block;font:10px Arial;letter-spacing:4px;text-align:center}.brand span{font-size:17px;color:#6d573d}
+nav{display:flex;gap:22px;flex-wrap:wrap;font-size:13px}nav a:hover,.link:hover{color:var(--gold)}
+.hero{display:grid;grid-template-columns:1fr 1fr;min-height:430px;background:var(--wine);color:#fffaf2}
+.hero-panel{padding:75px 8%;display:flex;flex-direction:column;justify-content:center;background:linear-gradient(90deg,rgba(30,8,15,.88),rgba(30,8,15,.2)),url('https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=85') center/cover}
+.hero-panel:nth-child(2){background:linear-gradient(90deg,rgba(42,24,16,.68),rgba(42,24,16,.12)),url('https://images.unsplash.com/photo-1610030469668-8e9f641aaf70?auto=format&fit=crop&w=1200&q=85') center/cover}
+.eyebrow{text-transform:uppercase;letter-spacing:3px;font-size:11px;color:#e8d3a1}.hero h1{font:clamp(34px,4vw,55px) Georgia,serif;line-height:1.06;margin:16px 0}.hero p{max-width:380px;line-height:1.7;font-size:14px}
+.btn{display:inline-block;border:1px solid var(--gold);padding:12px 19px;margin-top:12px;font-size:11px;letter-spacing:1px;text-transform:uppercase;width:max-content;transition:.2s}.btn:hover{background:var(--gold);color:#fff}
+section{padding:55px 5%}.section-title{text-align:center;margin:0 0 8px;font:36px Georgia,serif;color:var(--wine)}.subtitle{text-align:center;margin:0 0 30px;color:#735f4b;font-size:13px}
+.category-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.category{background:#fffaf2;text-align:center;border:1px solid #eee2d2;padding-bottom:17px}.category img{width:100%;height:205px;object-fit:cover;display:block}.category h3{font:21px Georgia,serif;margin:15px 8px 6px}.category p{font-size:12px;color:#6d6257;margin:0 10px}
+.shop-look{display:grid;grid-template-columns:1fr 1fr;align-items:center;background:#efe2d0;gap:0;padding:0}.shop-look img{width:100%;height:320px;object-fit:cover}.shop-copy{padding:35px;text-align:center}.shop-copy h2{font:34px Georgia,serif;color:var(--wine);margin:0 0 12px}.shop-copy p{line-height:1.7;font-size:14px;max-width:400px;margin:auto}
+.features{display:grid;grid-template-columns:repeat(5,1fr);gap:15px;background:#f0e8dc;text-align:center;padding:27px 5%}.feature{font-size:12px;line-height:1.5}.feature strong{display:block;font:17px Georgia,serif;margin-bottom:6px;color:var(--wine)}
+footer{background:var(--green);color:#fff8e9;padding:40px 5% 18px}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.4fr;gap:30px}.footer-title{font:20px Georgia,serif;margin-bottom:13px}.footer-grid p,.footer-grid a{display:block;font-size:13px;line-height:1.9;color:#e5dacc}.copyright{border-top:1px solid #527068;margin-top:28px;padding-top:16px;font-size:11px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.whatsapp{position:fixed;right:18px;bottom:18px;background:#1d9d58;color:white;padding:14px 18px;border-radius:40px;box-shadow:0 5px 20px #0003;font-weight:bold;font-size:13px;z-index:10}
+@media(max-width:800px){header{align-items:flex-start;flex-direction:column}.hero{grid-template-columns:1fr}.hero-panel{min-height:330px;padding:50px 7%}.category-grid{grid-template-columns:repeat(2,1fr)}.category img{height:180px}.shop-look{grid-template-columns:1fr}.shop-look img{height:230px}.features{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.topbar{font-size:11px}nav{gap:12px}.brand{font-size:28px}.section-title{font-size:30px}.category-grid{gap:9px}.category img{height:145px}.category h3{font-size:17px}.footer-grid{grid-template-columns:1fr}.features{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<div class="topbar"><span>Premium Heritage Jewellery · Traditional to Modern Women's Apparel</span><span>Call / WhatsApp: <a href="https://wa.me/919384172961">+91 93841 72961</a></span></div>
+<header>
+  <a class="brand" href="#home">✿ Jenci <span>| Ponmanai</span><small>COLLECTIONS</small></a>
+  <nav aria-label="Main navigation">
+    <a href="#jewellery">Jewellery</a><a href="#apparel">Apparel</a><a href="#shop-look">Shop the Look</a><a href="#about">Our Story</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+<main id="home">
+  <div class="hero">
+    <div class="hero-panel"><span class="eyebrow">Heritage • Craft • Elegance</span><h1>Timeless<br>Heritage Jewellery</h1><p>Discover antique-inspired, temple and Turkish designs made to make every occasion memorable.</p><a class="btn" href="#jewellery">Explore Jewellery →</a></div>
+    <div class="hero-panel"><span class="eyebrow">Grace in Every Thread</span><h1>Traditional Roots.<br>Modern Style.</h1><p>Find beautiful kurtis, co-ord sets, Anarkalis and sarees for everyday elegance and special moments.</p><a class="btn" href="#apparel">Explore Apparel →</a></div>
+  </div>
+  <section id="jewellery">
+    <h2 class="section-title">Shop by Category</h2><p class="subtitle">Two worlds. One beautiful collection.</p>
+    <div class="category-grid">
+      <a class="category" href="https://wa.me/919384172961?text=Hello%20Jenci%20Collections%2C%20I%27m%20interested%20in%20Antique%20Jewellery"><img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=700&q=80" alt="Antique gold jewellery"><h3>Antique Collections</h3><p>Regal, timeless designs</p></a>
+      <a class="category" href="https://wa.me/919384172961?text=Hello%20Jenci%20Collections%2C%20I%27m%20interested%20in%20Temple%20Jewellery"><img src="https://images.unsplash.com/photo-1635767798638-3665a7e1b2f4?auto=format&fit=crop&w=700&q=80" alt="Traditional temple jewellery"><h3>Temple Designs</h3><p>Inspired by tradition</p></a>
+      <a class="category" href="https://wa.me/919384172961?text=Hello%20Jenci%20Collections%2C%20I%27m%20interested%20in%20Turkish%20Jewellery"><img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=700&q=80" alt="Contemporary statement jewellery"><h3>Turkish Collections</h3><p>Modern statement pieces</p></a>
+      <a class="category" href="https://wa.me/919384172961?text=Hello%20Jenci%20Collections%2C%20I%27m%20interested%20in%20Daily%20Wear%20Jewellery"><img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=700&q=80" alt="Everyday jewellery"><h3>Daily Wear</h3><p>Easy, everyday elegance</p></a>
+    </div>
+  </section>
+  <section id="apparel" style="padding-top:0">
+    <h2 class="section-title">Women's Apparel</h2><p class="subtitle">From everyday favourites to celebration-ready looks.</p>
+    <div class="category-grid">
+      <a class="category" href="https://wa.me/919384172961?text=Hello%2C%20please%20share%20your%20Kurti%20collection"><img src="https://images.unsplash.com/photo-1583391733958-d2c0e6c4a5d7?auto=format&fit=crop&w=700&q=80" alt="Kurti fashion"><h3>Kurtis</h3><p>Comfort with style</p></a>
+      <a class="category" href="https://wa.me/919384172961?text=Hello%2C%20please%20share%20your%20Co-ord%20Sets"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80" alt="Co-ord set fashion"><h3>Co-Ord Sets</h3><p>Effortless matching looks</p></a>
+      <a class="category" href="https://wa.me/919384172961?text=Hello%2C%20please%20share%20your%20Anarkali%20collection"><img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=700&q=80" alt="Anarkali-inspired fashion"><h3>Anarkalis</h3><p>Made for special moments</p></a>
+      <a class="category" href="https://wa.me/919384172961?text=Hello%2C%20please%20share%20your%20Saree%20collection"><img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=700&q=80" alt="Elegant saree fashion"><h3>Sarees</h3><p>Grace in every drape</p></a>
+    </div>
+  </section>
+  <section class="shop-look" id="shop-look">
+    <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=1000&q=85" alt="Jewellery styling inspiration">
+    <div class="shop-copy"><span class="eyebrow">Curated for you</span><h2>Shop the Look</h2><p>Pair your favourite saree or outfit with jewellery that completes the moment. Message us for styling suggestions and availability.</p><a class="btn" href="https://wa.me/919384172961?text=Hello%20Jenci%20Collections%2C%20please%20help%20me%20style%20a%20complete%20look">Find Your Look →</a></div>
+  </section>
+  <section>
+    <h2 class="section-title">The Jenci Edit</h2><p class="subtitle">Heritage craftsmanship meets modern elegance.</p>
+    <div class="category-grid">
+      <a class="category" href="https://wa.me/919384172961?text=I%27d%20like%20to%20browse%20Antique%20%26%20Temple%20collections"><img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=700&q=80" alt="Heritage jewellery"><h3>Antique & Temple</h3><p>Royal. Regal. Timeless.</p><span class="btn">Enquire Now →</span></a>
+      <a class="category" href="https://wa.me/919384172961?text=I%27d%20like%20to%20browse%20Turkish%20jewellery"><img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=700&q=80" alt="Turkish-inspired jewellery"><h3>Turkish Designs</h3><p>Modern. Minimal. Elegant.</p><span class="btn">Enquire Now →</span></a>
+      <a class="category" href="https://wa.me/919384172961?text=I%27d%20like%20to%20browse%20Kurtis%20and%20Co-ord%20Sets"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80" alt="Women's apparel"><h3>Kurtis & Co-Ord Sets</h3><p>Everyday luxury.</p><span class="btn">Enquire Now →</span></a>
+      <a class="category" href="https://wa.me/919384172961?text=I%27d%20like%20to%20browse%20Anarkalis%20and%20Sarees"><img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=700&q=80" alt="Traditional apparel"><h3>Anarkalis & Sarees</h3><p>Grace in every drape.</p><span class="btn">Enquire Now →</span></a>
+    </div>
+  </section>
+  <div class="features">
+    <div class="feature"><strong>✧ Thoughtful Selection</strong>Curated designs for every occasion</div>
+    <div class="feature"><strong>♧ Personal Assistance</strong>Ask us about products and styling</div>
+    <div class="feature"><strong>◇ Easy Enquiries</strong>Order enquiries through WhatsApp</div>
+    <div class="feature"><strong>⌖ Size Guidance</strong>Ask for measurements before ordering</div>
+    <div class="feature"><strong>❀ Care Tips</strong>Get care guidance for your purchase</div>
+  </div>
+</main>
+<footer id="about">
+  <div class="footer-grid">
+    <div><div class="brand" style="color:#fff8e9">✿ Jenci <span style="color:#e8d3a1">| Ponmanai</span><small>COLLECTIONS</small></div><p>Heritage Jewellery · Ethnic Wear · Modern You</p><p>Celebrating timeless tradition and personal style.</p></div>
+    <div><div class="footer-title">Quick Links</div><a href="#home">Home</a><a href="#jewellery">Jewellery</a><a href="#apparel">Apparel</a><a href="#shop-look">Shop the Look</a></div>
+    <div><div class="footer-title">Customer Care</div><a href="https://wa.me/919384172961">Product Enquiries</a><a href="https://wa.me/919384172961?text=Please%20share%20shipping%20details">Shipping Questions</a><a href="https://wa.me/919384172961?text=Please%20share%20size%20and%20fit%20guidance">Size Guide</a></div>
+    <div id="contact"><div class="footer-title">Get in Touch</div><p>Location: Ponmanai</p><p>Phone: <a href="tel:+919384172961">+91 93841 72961</a></p><p>WhatsApp: <a href="https://wa.me/919384172961">Chat with Jenci Collections</a></p></div>
+  </div>
+  <div class="copyright"><span>© 2026 Jenci Collections. All rights reserved.</span><span>Tradition ✧ Elegance ✧ You</span></div>
+</footer>
+<a class="whatsapp" href="https://wa.me/919384172961?text=Hello%20Jenci%20Collections%2C%20I%27d%20like%20to%20make%20an%20enquiry" aria-label="Chat with Jenci Collections on WhatsApp">☏ WhatsApp Us</a>
+</body>
+</html>
